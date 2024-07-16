@@ -1,0 +1,343 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.apph1 {
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  background: rgb(63, 94, 251);
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
+}
+
+.logo {
+  height: 60px;
+  width: 60px;
+  z-index: 8;
+  object-fit: fill;
+  left: 20px;
+  position: absolute;
+}
+.navbar {
+  display: flex;
+  justify-content: end;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(10, 25, 61, 1) 100%
+  );
+  color: white;
+  height: 60px;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+}
+ul.navlinks {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-around;
+  width: 60%;
+  padding: 15px;
+}
+
+@media (max-width: 800px) {
+  ul.navlinks {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    padding: 15px;
+  }
+}
+
+.hero-section {
+  height: 500px;
+  width: 100%;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(10, 25, 61, 1) 100%
+  );
+  
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 0);
+  text-align: center;
+  font-size: 6rem;
+}
+
+@media (max-width: 1200px) {
+  .hero-section {
+    height: 260px;
+    width: 100%;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(10, 25, 61, 1) 100%
+    );
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 0);
+    text-align: center;
+    font-size: 5.3rem;
+  }
+}
+@media (max-width: 1050px) {
+  .hero-section {
+    height: 260px;
+    width: 100%;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(10, 25, 61, 1) 100%
+    );
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 0);
+    text-align: center;
+    font-size: 4.5rem;
+  }
+}
+@media (max-width: 900px) {
+  .hero-section {
+    height: 260px;
+    width: 100%;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(10, 25, 61, 1) 100%
+    );
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 0);
+    text-align: center;
+    font-size: 4rem;
+  }
+}
+@media (max-width: 700px) {
+  .hero-section {
+    height: 260px;
+    width: 100%;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(10, 25, 61, 1) 100%
+    );
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 0);
+    text-align: center;
+    font-size: 3rem;
+  }
+}
+@media (max-width: 500px) {
+  .hero-section {
+    height: 260px;
+    width: 100%;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(10, 25, 61, 1) 100%
+    );
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 0);
+    text-align: center;
+    font-size: 2rem;
+  }
+}
+
+
+.hero-section img {
+  width: 560px;
+  height: 500px;
+  object-fit: cover;
+  position: absolute;
+  right: 0px;
+  top: 90px;
+}
+
+@media (max-width: 1200px) {
+  .hero-section img {
+    width: 300px;
+    height: 260px;
+    object-fit: cover;
+    position: absolute;
+    right: 0px;
+    top: 90px;
+  }
+}
+
+.hero-text {
+  font-family: "Playfair Display SC", serif;
+}
+
+/* p{
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 20px;
+} */
+.my-name {
+  position: absolute;
+  top: 50%;
+}
+
+/* ........................container.............................. */
+
+/* .container{
+   
+  height: 400px;
+  width: 400px;
+    background-color: #e8e7e7;
+    margin: 20px 20px;
+    border-radius: 30px;
+    
+} */
+.container {
+  height: 400px;
+  width: 400px;
+  background-color: #f4fff4;
+  border-radius: 30px;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.527); */
+  filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.179));
+  padding: 20px;
+  margin: 20px 20px;
+}
+
+.container-heading {
+  font-size: 50px;
+  /* margin-bottom: 10px; */
+  font-weight: 700;
+}
+
+.container-paragraph {
+  font-size: 20px;
+  line-height: 1.6;
+  color: black;
+}
+
+.container:hover {
+  /* transform: scale(1.05); */
+  transition: all 0.5s ease;
+  filter: drop-shadow(0 0 0.9rem rgb(20, 220, 87));
+}
+
+.portfolio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+  height: 30px;
+  width: 90px;
+  left: 10px;
+  border-radius: 4px;
+  margin: 20px 0px 20px;
+  background-color: #00dbde;
+  background-image: linear-gradient(90deg, #00dbde 0%, #fc00ff 100%);
+}
+.container:hover .portfolio {
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+  transition: all 0.9s ease;
+  filter: drop-shadow(0 0 0.9rem #3a5a4086);
+}
+
+/* .container:hover .container-heading{
+    transition: all 0.9s ease;
+    filter: drop-shadow(0 0 0.9rem #153e1c);
+} */
+
+.containericon {
+  /* color: blueviolet; */
+  /* margin-top: 150px; */
+  font-size: 30px;
+  display: inline-block;
+  margin: 150px 80px 60px 10px;
+}
+
+.tools {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  background-color: #c850c0;
+}
+
+.linex {
+  width: 100%;
+  height: 1px;
+  background-color: #ffffff;
+  margin: 20px 0px 40px;
+}
+/* ..........................projects............................... */
+
+.projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 450px;
+  width: 100wh;
+}
+
+/* .....................Accadmics.............................. */
+
+.academics {
+  display: flex;
+  height: 500px;
+  width: 100wh;
+}
+
+.academics .image {
+  position: absolute;
+  right: 0px;
+}
